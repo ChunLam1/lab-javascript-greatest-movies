@@ -33,7 +33,7 @@ function scoresAverage(average) {
   average.forEach(movScore => { sum += movScore.score });
   let averageScore = sum / average.length;
   return Number(averageScore.toFixed(2))
-}
+};
 
 // Iteration 4: Drama movies - Get the average of Drama Movies
 function dramaMoviesScore() {}
